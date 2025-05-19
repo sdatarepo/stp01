@@ -1,13 +1,12 @@
 
 using Pkg
 Pkg.activate(".")
-using Stipple, StippleUI
+using Stipple, StippleUI, Genie
 
 @genie app
 
 @app begin
     @in counter = 0
-
     @onbutton "increment" counter += 1
 end
 
@@ -19,4 +18,4 @@ route("/") do
     ])
 end
 
-up()
+Genie.up(8000, "0.0.0.0")
