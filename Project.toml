@@ -1,0 +1,9 @@
+name = "StippleApp"
+uuid = "e8b989f3-3c9a-4f7e-a72a-c2d5c8b48a4f"
+authors = ["Issoufou Seidou Sanda <you@example.com>"]
+version = "0.1.0"
+
+[deps]
+Genie = "c8734023-6584-55f8-9f1c-3d3f276db217"
+Stipple = "0fae2eb3-90f3-5386-84f0-2096f56fdf79"
+StippleUI = "dfb8ca35-80a1-45e3-9f71-2cecf34e0385"
